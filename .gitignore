@@ -1,0 +1,59 @@
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ===== 编辑器 / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 日志与临时文件 =====
+*.log
+*.tmp
+*.bak
+logs/
+tmp/
+temp/
+
+# ===== 依赖与构建产物 =====
+node_modules/
+dist/
+build/
+out/
+target/
+bin/
+obj/
+*.pyc
+__pycache__/
+.venv/
+venv/
+env/
+
+# ===== 环境与密钥 =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ===== 压缩包与可执行文件 =====
+*.zip
+*.tar.gz
+*.7z
+*.rar
+*.exe
+*.dll
+
+# ===== Unity / 游戏工程 =====
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
